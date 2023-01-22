@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SAE471\SAE471.csproj" />
+    <ProjectReference Include="..\SAE471.Sample.Application\SAE471.Sample.Application.csproj" />
+    <ProjectReference Include="..\SAE471.Sample.Application\SAE471.Sample.Application.csproj" />
+    <ProjectReference Include="..\SAE471.Sample.Domain\SAE471.Sample.Domain.csproj" />
+    <ProjectReference Include="..\SAE471.Sample.EFCore\SAE471.Sample.EFCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
